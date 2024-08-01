@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close dropdown if clicked outside
     window.addEventListener('click', function(event) {
-        if (!event.target.matches('.dropdown-button') && !event.target.matches('.dropdown-item')) {
+        if (!dropdownButton.contains(event.target) && !dropdownList.contains(event.target)) {
             if (dropdownList.classList.contains('visible')) {
                 dropdownList.classList.remove('visible');
             }
