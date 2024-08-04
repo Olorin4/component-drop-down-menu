@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+export function initDropdownMenu() {
     const dropdownButton = document.querySelector('.dropdown-button');
     const dropdownList = document.querySelector('.dropdown-list');
 
@@ -15,4 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
-});
+}
+
+// Testing
+// document.addEventListener('DOMContentLoaded', function() {
+//     initDropdownMenu();
+// });
