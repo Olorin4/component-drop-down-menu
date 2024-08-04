@@ -1,6 +1,6 @@
 {
   "name": "component-dropdown-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable javascript component to manipulate hard-coded HTML elements.",
   "main": "dist/drop-down-menu.js",
   "style": "dist/drop-down-menu.css",
