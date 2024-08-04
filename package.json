@@ -1,6 +1,6 @@
 {
   "name": "component-dropdown-menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A reusable javascript component to manipulate hard-coded HTML elements.",
   "main": "dist/drop-down-menu.js",
   "style": "dist/drop-down-menu.css",
@@ -11,7 +11,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cp -r src/* dist/"
   },
-  "keywords": ["component", "dropdown", "menu"],
+  "keywords": [
+    "component",
+    "dropdown",
+    "menu"
+  ],
   "author": "Nick Kalas",
   "license": "ISC"
 }
